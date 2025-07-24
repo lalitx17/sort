@@ -1,0 +1,52 @@
+# Object files
+*.o
+*.obj
+
+# Executables
+*.exe
+*.out
+*.bin
+*.elf
+
+# Linker output
+*.map
+*.ld
+
+# Debug symbols
+*.sym
+*.dbg
+
+# Core dumps
+core
+*.core
+
+# Build directories
+/build/
+/dist/
+/bin/
+/obj/
+
+# Temporary files
+*~
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# IDEs
+.vscode/
+.idea/
+*.code-workspace
+
+# Makefile auto-generated dependencies
+*.d
+
+# Logs
+*.log
