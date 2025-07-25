@@ -5,5 +5,5 @@ fi
 
 name="$1"
 nasm -f elf64 "$name.asm" -o "$name.o"
-ld "$name.o" -o "$name"
-./"$name"
+ld "$name.o" -o "$name.out"
+./"$name.out"
